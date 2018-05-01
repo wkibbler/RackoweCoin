@@ -1084,7 +1084,7 @@ uint256 static GetOrphanRoot(const CBlockHeader* pblock)
 
 int64 static GetBlockValue(int nHeight, int64 nFees)
 {
-    int64 nSubsidy = 20000000 * COIN;
+    int64 nSubsidy = 35 * COIN;
 
     // Subsidy is cut in half every 840000 blocks, which will occur approximately every 4 years
     nSubsidy >>= (nHeight / 840000); // Rackowecoin: 840k blocks in ~4 years
@@ -2784,7 +2784,7 @@ bool InitBlockIndex() {
         txNew.vin.resize(1);
         txNew.vout.resize(1);
         txNew.vin[0].scriptSig = CScript() << 486604799 << CBigNum(4) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
-        txNew.vout[0].nValue = 20000000 * COIN;
+        txNew.vout[0].nValue = 35 * COIN;
         txNew.vout[0].scriptPubKey = CScript() << ParseHex("044d33c443da3dc8ebc65306b131814d7bce1602cae6f34c13a7fd562434f9c64af8a816842be30baf88f8c28e7bf4082cab8ff6cda93e9465d5409ad82f3bcc2f") << OP_CHECKSIG;
         CBlock block;
         block.vtx.push_back(txNew);
