@@ -30,13 +30,13 @@ static const uint qt_meta_data_BitcoinAmountField[] = {
        1,       // signalCount
 
  // signals: signature, parameters, type, tag, flags
-      19,   33,   33,   33, 0x05,
+      20,   19,   19,   19, 0x05,
 
  // slots: signature, parameters, type, tag, flags
-      34,   51,   33,   33, 0x08,
+      38,   34,   19,   19, 0x08,
 
  // properties: name, type, flags
-      55,   61, 0x04595103,
+      62,   55, 0x04595103,
 
  // properties: notify_signal_id
        0,
@@ -45,8 +45,8 @@ static const uint qt_meta_data_BitcoinAmountField[] = {
 };
 
 static const char qt_meta_stringdata_BitcoinAmountField[] = {
-    "BitcoinAmountField\0textChanged()\0\0"
-    "unitChanged(int)\0idx\0value\0qint64\0"
+    "BitcoinAmountField\0\0textChanged()\0idx\0"
+    "unitChanged(int)\0qint64\0value\0"
 };
 
 void BitcoinAmountField::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)

@@ -30,17 +30,17 @@ static const uint qt_meta_data_PaymentServer[] = {
        1,       // signalCount
 
  // signals: signature, parameters, type, tag, flags
-      14,   35,   35,   35, 0x05,
+      15,   14,   14,   14, 0x05,
 
  // slots: signature, parameters, type, tag, flags
-      36,   35,   35,   35, 0x0a,
-      46,   35,   35,   35, 0x08,
+      36,   14,   14,   14, 0x0a,
+      46,   14,   14,   14, 0x08,
 
        0        // eod
 };
 
 static const char qt_meta_stringdata_PaymentServer[] = {
-    "PaymentServer\0receivedURI(QString)\0\0"
+    "PaymentServer\0\0receivedURI(QString)\0"
     "uiReady()\0handleURIConnection()\0"
 };
 

@@ -30,13 +30,13 @@ static const uint qt_meta_data_EditAddressDialog[] = {
        0,       // signalCount
 
  // slots: signature, parameters, type, tag, flags
-      18,   27,   27,   27, 0x0a,
+      19,   18,   18,   18, 0x0a,
 
        0        // eod
 };
 
 static const char qt_meta_stringdata_EditAddressDialog[] = {
-    "EditAddressDialog\0accept()\0\0"
+    "EditAddressDialog\0\0accept()\0"
 };
 
 void EditAddressDialog::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)

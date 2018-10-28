@@ -30,27 +30,28 @@ static const uint qt_meta_data_SendCoinsEntry[] = {
        2,       // signalCount
 
  // signals: signature, parameters, type, tag, flags
-      15,   44,   50,   50, 0x05,
-      51,   50,   50,   50, 0x05,
+      22,   16,   15,   15, 0x05,
+      51,   15,   15,   15, 0x05,
 
  // slots: signature, parameters, type, tag, flags
-      70,   93,   50,   50, 0x0a,
-     101,   50,   50,   50, 0x0a,
-     109,   50,   50,   50, 0x08,
-     135,  165,   50,   50, 0x08,
-     173,   50,   50,   50, 0x08,
-     204,   50,   50,   50, 0x08,
-     229,   50,   50,   50, 0x08,
+      78,   70,   15,   15, 0x0a,
+     101,   15,   15,   15, 0x0a,
+     109,   15,   15,   15, 0x08,
+     143,  135,   15,   15, 0x08,
+     173,   15,   15,   15, 0x08,
+     204,   15,   15,   15, 0x08,
+     229,   15,   15,   15, 0x08,
 
        0        // eod
 };
 
 static const char qt_meta_stringdata_SendCoinsEntry[] = {
-    "SendCoinsEntry\0removeEntry(SendCoinsEntry*)\0"
-    "entry\0\0payAmountChanged()\0"
-    "setRemoveEnabled(bool)\0enabled\0clear()\0"
-    "on_deleteButton_clicked()\0"
-    "on_payTo_textChanged(QString)\0address\0"
+    "SendCoinsEntry\0\0entry\0"
+    "removeEntry(SendCoinsEntry*)\0"
+    "payAmountChanged()\0enabled\0"
+    "setRemoveEnabled(bool)\0clear()\0"
+    "on_deleteButton_clicked()\0address\0"
+    "on_payTo_textChanged(QString)\0"
     "on_addressBookButton_clicked()\0"
     "on_pasteButton_clicked()\0updateDisplayUnit()\0"
 };

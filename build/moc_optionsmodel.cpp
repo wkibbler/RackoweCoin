@@ -30,16 +30,16 @@ static const uint qt_meta_data_OptionsModel[] = {
        3,       // signalCount
 
  // signals: signature, parameters, type, tag, flags
-      13,   37,   42,   42, 0x05,
-      43,   42,   42,   42, 0x05,
-      73,   42,   42,   42, 0x05,
+      19,   14,   13,   13, 0x05,
+      43,   13,   13,   13, 0x05,
+      73,   13,   13,   13, 0x05,
 
        0        // eod
 };
 
 static const char qt_meta_stringdata_OptionsModel[] = {
-    "OptionsModel\0displayUnitChanged(int)\0"
-    "unit\0\0transactionFeeChanged(qint64)\0"
+    "OptionsModel\0\0unit\0displayUnitChanged(int)\0"
+    "transactionFeeChanged(qint64)\0"
     "coinControlFeaturesChanged(bool)\0"
 };
 

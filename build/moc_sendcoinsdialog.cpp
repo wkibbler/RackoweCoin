@@ -30,40 +30,40 @@ static const uint qt_meta_data_SendCoinsDialog[] = {
        0,       // signalCount
 
  // slots: signature, parameters, type, tag, flags
-      16,   24,   24,   24, 0x0a,
-      25,   24,   24,   24, 0x0a,
-      34,   24,   24,   24, 0x0a,
-      43,   24,   54,   24, 0x0a,
-      70,   24,   24,   24, 0x0a,
-      92,  125,   24,   24, 0x0a,
-     168,   24,   24,   24, 0x08,
-     192,  221,   24,   24, 0x08,
-     227,   24,   24,   24, 0x08,
-     247,   24,   24,   24, 0x08,
-     279,   24,   24,   24, 0x08,
-     306,   24,   24,   24, 0x08,
-     336,   24,   24,   24, 0x08,
-     369,   24,   24,   24, 0x08,
-     395,   24,   24,   24, 0x08,
-     426,   24,   24,   24, 0x08,
-     455,   24,   24,   24, 0x08,
-     481,   24,   24,   24, 0x08,
-     512,   24,   24,   24, 0x08,
-     540,   24,   24,   24, 0x08,
-     571,   24,   24,   24, 0x08,
-     603,   24,   24,   24, 0x08,
+      17,   16,   16,   16, 0x0a,
+      25,   16,   16,   16, 0x0a,
+      34,   16,   16,   16, 0x0a,
+      59,   16,   43,   16, 0x0a,
+      70,   16,   16,   16, 0x0a,
+     135,   92,   16,   16, 0x0a,
+     168,   16,   16,   16, 0x08,
+     198,  192,   16,   16, 0x08,
+     227,   16,   16,   16, 0x08,
+     247,   16,   16,   16, 0x08,
+     279,   16,   16,   16, 0x08,
+     306,   16,   16,   16, 0x08,
+     336,   16,   16,   16, 0x08,
+     369,   16,   16,   16, 0x08,
+     395,   16,   16,   16, 0x08,
+     426,   16,   16,   16, 0x08,
+     455,   16,   16,   16, 0x08,
+     481,   16,   16,   16, 0x08,
+     512,   16,   16,   16, 0x08,
+     540,   16,   16,   16, 0x08,
+     571,   16,   16,   16, 0x08,
+     603,   16,   16,   16, 0x08,
 
        0        // eod
 };
 
 static const char qt_meta_stringdata_SendCoinsDialog[] = {
-    "SendCoinsDialog\0clear()\0\0reject()\0"
-    "accept()\0addEntry()\0SendCoinsEntry*\0"
+    "SendCoinsDialog\0\0clear()\0reject()\0"
+    "accept()\0SendCoinsEntry*\0addEntry()\0"
     "updateRemoveEnabled()\0"
-    "setBalance(qint64,qint64,qint64)\0"
     "balance,unconfirmedBalance,immatureBalance\0"
-    "on_sendButton_clicked()\0"
-    "removeEntry(SendCoinsEntry*)\0entry\0"
+    "setBalance(qint64,qint64,qint64)\0"
+    "on_sendButton_clicked()\0entry\0"
+    "removeEntry(SendCoinsEntry*)\0"
     "updateDisplayUnit()\0coinControlFeatureChanged(bool)\0"
     "coinControlButtonClicked()\0"
     "coinControlChangeChecked(int)\0"

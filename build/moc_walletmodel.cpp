@@ -30,31 +30,32 @@ static const uint qt_meta_data_WalletModel[] = {
        5,       // signalCount
 
  // signals: signature, parameters, type, tag, flags
-      12,   49,   92,   92, 0x05,
-      93,  121,   92,   92, 0x05,
-     127,  156,   92,   92, 0x05,
-     163,   92,   92,   92, 0x05,
-     179,  209,   92,   92, 0x05,
+      56,   13,   12,   12, 0x05,
+      99,   93,   12,   12, 0x05,
+     134,  127,   12,   12, 0x05,
+     163,   12,   12,   12, 0x05,
+     199,  179,   12,   12, 0x05,
 
  // slots: signature, parameters, type, tag, flags
-     229,   92,   92,   92, 0x0a,
-     244,  275,   92,   92, 0x0a,
-     287,  331,   92,   92, 0x0a,
-     359,   92,   92,   92, 0x0a,
+     229,   12,   12,   12, 0x0a,
+     256,  244,   12,   12, 0x0a,
+     315,  287,   12,   12, 0x0a,
+     359,   12,   12,   12, 0x0a,
 
        0        // eod
 };
 
 static const char qt_meta_stringdata_WalletModel[] = {
-    "WalletModel\0balanceChanged(qint64,qint64,qint64)\0"
-    "balance,unconfirmedBalance,immatureBalance\0"
-    "\0numTransactionsChanged(int)\0count\0"
-    "encryptionStatusChanged(int)\0status\0"
-    "requireUnlock()\0message(QString,QString,uint)\0"
-    "title,message,style\0updateStatus()\0"
+    "WalletModel\0\0balance,unconfirmedBalance,immatureBalance\0"
+    "balanceChanged(qint64,qint64,qint64)\0"
+    "count\0numTransactionsChanged(int)\0"
+    "status\0encryptionStatusChanged(int)\0"
+    "requireUnlock()\0title,message,style\0"
+    "message(QString,QString,uint)\0"
+    "updateStatus()\0hash,status\0"
     "updateTransaction(QString,int)\0"
-    "hash,status\0updateAddressBook(QString,QString,bool,int)\0"
     "address,label,isMine,status\0"
+    "updateAddressBook(QString,QString,bool,int)\0"
     "pollBalanceChanged()\0"
 };
 

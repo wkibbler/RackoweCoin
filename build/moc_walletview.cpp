@@ -30,41 +30,41 @@ static const uint qt_meta_data_WalletView[] = {
        1,       // signalCount
 
  // signals: signature, parameters, type, tag, flags
-      11,   35,   35,   35, 0x05,
+      12,   11,   11,   11, 0x05,
 
  // slots: signature, parameters, type, tag, flags
-      36,   35,   35,   35, 0x0a,
-      55,   35,   35,   35, 0x0a,
-      73,   35,   35,   35, 0x0a,
-      95,   35,   35,   35, 0x0a,
-     118,  145,   35,   35, 0x0a,
-     150,   35,   35,   35, 0x2a,
-     170,  145,   35,   35, 0x0a,
-     198,   35,   35,   35, 0x2a,
-     219,  145,   35,   35, 0x0a,
-     249,   35,   35,   35, 0x2a,
-     272,  313,   35,   35, 0x0a,
-     327,  347,   35,   35, 0x0a,
-     354,   35,   35,   35, 0x0a,
-     369,   35,   35,   35, 0x0a,
-     388,   35,   35,   35, 0x0a,
-     403,   35,   35,   35, 0x0a,
+      36,   11,   11,   11, 0x0a,
+      55,   11,   11,   11, 0x0a,
+      73,   11,   11,   11, 0x0a,
+      95,   11,   11,   11, 0x0a,
+     123,  118,   11,   11, 0x0a,
+     150,   11,   11,   11, 0x2a,
+     170,  118,   11,   11, 0x0a,
+     198,   11,   11,   11, 0x2a,
+     219,  118,   11,   11, 0x0a,
+     249,   11,   11,   11, 0x2a,
+     286,  272,   11,   11, 0x0a,
+     334,  327,   11,   11, 0x0a,
+     354,   11,   11,   11, 0x0a,
+     369,   11,   11,   11, 0x0a,
+     388,   11,   11,   11, 0x0a,
+     403,   11,   11,   11, 0x0a,
 
        0        // eod
 };
 
 static const char qt_meta_stringdata_WalletView[] = {
-    "WalletView\0showNormalIfMinimized()\0\0"
+    "WalletView\0\0showNormalIfMinimized()\0"
     "gotoOverviewPage()\0gotoHistoryPage()\0"
     "gotoAddressBookPage()\0gotoReceiveCoinsPage()\0"
-    "gotoSendCoinsPage(QString)\0addr\0"
+    "addr\0gotoSendCoinsPage(QString)\0"
     "gotoSendCoinsPage()\0gotoSignMessageTab(QString)\0"
     "gotoSignMessageTab()\0gotoVerifyMessageTab(QString)\0"
-    "gotoVerifyMessageTab()\0"
+    "gotoVerifyMessageTab()\0parent,start,\0"
     "incomingTransaction(QModelIndex,int,int)\0"
-    "parent,start,\0encryptWallet(bool)\0"
-    "status\0backupWallet()\0changePassphrase()\0"
-    "unlockWallet()\0setEncryptionStatus()\0"
+    "status\0encryptWallet(bool)\0backupWallet()\0"
+    "changePassphrase()\0unlockWallet()\0"
+    "setEncryptionStatus()\0"
 };
 
 void WalletView::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)

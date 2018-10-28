@@ -30,34 +30,33 @@ static const uint qt_meta_data_AddressBookPage[] = {
        3,       // signalCount
 
  // signals: signature, parameters, type, tag, flags
-      16,   37,   42,   42, 0x05,
-      43,   37,   42,   42, 0x05,
-      66,   37,   42,   42, 0x05,
+      22,   17,   16,   16, 0x05,
+      43,   17,   16,   16, 0x05,
+      66,   17,   16,   16, 0x05,
 
  // slots: signature, parameters, type, tag, flags
-      85,   95,   42,   42, 0x0a,
-     102,   42,   42,   42, 0x08,
-     129,   42,   42,   42, 0x08,
-     153,   42,   42,   42, 0x08,
-     178,   42,   42,   42, 0x08,
-     203,   42,   42,   42, 0x08,
-     230,   42,   42,   42, 0x08,
-     250,   42,   42,   42, 0x08,
-     274,   42,   42,   42, 0x08,
-     294,   42,   42,   42, 0x08,
-     309,   42,   42,   42, 0x08,
-     335,   42,   42,   42, 0x08,
-     354,  377,   42,   42, 0x08,
-     383,  421,   42,   42, 0x08,
+      92,   85,   16,   16, 0x0a,
+     102,   16,   16,   16, 0x08,
+     129,   16,   16,   16, 0x08,
+     153,   16,   16,   16, 0x08,
+     178,   16,   16,   16, 0x08,
+     203,   16,   16,   16, 0x08,
+     230,   16,   16,   16, 0x08,
+     250,   16,   16,   16, 0x08,
+     274,   16,   16,   16, 0x08,
+     294,   16,   16,   16, 0x08,
+     309,   16,   16,   16, 0x08,
+     335,   16,   16,   16, 0x08,
+     360,  354,   16,   16, 0x08,
+     397,  383,   16,   16, 0x08,
 
        0        // eod
 };
 
 static const char qt_meta_stringdata_AddressBookPage[] = {
-    "AddressBookPage\0signMessage(QString)\0"
-    "addr\0\0verifyMessage(QString)\0"
-    "sendCoins(QString)\0done(int)\0retval\0"
-    "on_deleteAddress_clicked()\0"
+    "AddressBookPage\0\0addr\0signMessage(QString)\0"
+    "verifyMessage(QString)\0sendCoins(QString)\0"
+    "retval\0done(int)\0on_deleteAddress_clicked()\0"
     "on_newAddress_clicked()\0"
     "on_copyAddress_clicked()\0"
     "on_signMessage_clicked()\0"
@@ -65,9 +64,8 @@ static const char qt_meta_stringdata_AddressBookPage[] = {
     "onSendCoinsAction()\0on_showQRCode_clicked()\0"
     "onCopyLabelAction()\0onEditAction()\0"
     "on_exportButton_clicked()\0selectionChanged()\0"
-    "contextualMenu(QPoint)\0point\0"
+    "point\0contextualMenu(QPoint)\0parent,begin,\0"
     "selectNewAddress(QModelIndex,int,int)\0"
-    "parent,begin,\0"
 };
 
 void AddressBookPage::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)

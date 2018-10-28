@@ -30,19 +30,19 @@ static const uint qt_meta_data_Notificator[] = {
        0,       // signalCount
 
  // slots: signature, parameters, type, tag, flags
-      12,   52,   86,   86, 0x0a,
-      87,  123,   86,   86, 0x2a,
-     143,  173,   86,   86, 0x2a,
+      47,   13,   12,   12, 0x0a,
+     107,   87,   12,   12, 0x2a,
+     158,  143,   12,   12, 0x2a,
 
        0        // eod
 };
 
 static const char qt_meta_stringdata_Notificator[] = {
-    "Notificator\0notify(Class,QString,QString,QIcon,int)\0"
-    "cls,title,text,icon,millisTimeout\0\0"
+    "Notificator\0\0cls,title,text,icon,millisTimeout\0"
+    "notify(Class,QString,QString,QIcon,int)\0"
+    "cls,title,text,icon\0"
     "notify(Class,QString,QString,QIcon)\0"
-    "cls,title,text,icon\0notify(Class,QString,QString)\0"
-    "cls,title,text\0"
+    "cls,title,text\0notify(Class,QString,QString)\0"
 };
 
 void Notificator::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)

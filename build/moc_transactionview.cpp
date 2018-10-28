@@ -30,36 +30,36 @@ static const uint qt_meta_data_TransactionView[] = {
        1,       // signalCount
 
  // signals: signature, parameters, type, tag, flags
-      16,   43,   43,   43, 0x05,
+      17,   16,   16,   16, 0x05,
 
  // slots: signature, parameters, type, tag, flags
-      44,   43,   43,   43, 0x08,
-      67,   43,   43,   43, 0x08,
-      86,   43,   43,   43, 0x08,
-     100,   43,   43,   43, 0x08,
-     114,   43,   43,   43, 0x08,
-     126,   43,   43,   43, 0x08,
-     138,   43,   43,   43, 0x08,
-     151,   43,   43,   43, 0x08,
-     162,  178,   43,   43, 0x0a,
-     182,  178,   43,   43, 0x0a,
-     198,  221,   43,   43, 0x0a,
-     228,  251,   43,   43, 0x0a,
-     258,   43,   43,   43, 0x0a,
-     274,   43,   43,   43, 0x0a,
+      44,   16,   16,   16, 0x08,
+      67,   16,   16,   16, 0x08,
+      86,   16,   16,   16, 0x08,
+     100,   16,   16,   16, 0x08,
+     114,   16,   16,   16, 0x08,
+     126,   16,   16,   16, 0x08,
+     138,   16,   16,   16, 0x08,
+     151,   16,   16,   16, 0x08,
+     166,  162,   16,   16, 0x0a,
+     182,  162,   16,   16, 0x0a,
+     205,  198,   16,   16, 0x0a,
+     235,  228,   16,   16, 0x0a,
+     258,   16,   16,   16, 0x0a,
+     274,   16,   16,   16, 0x0a,
 
        0        // eod
 };
 
 static const char qt_meta_stringdata_TransactionView[] = {
-    "TransactionView\0doubleClicked(QModelIndex)\0"
-    "\0contextualMenu(QPoint)\0dateRangeChanged()\0"
+    "TransactionView\0\0doubleClicked(QModelIndex)\0"
+    "contextualMenu(QPoint)\0dateRangeChanged()\0"
     "showDetails()\0copyAddress()\0editLabel()\0"
     "copyLabel()\0copyAmount()\0copyTxID()\0"
-    "chooseDate(int)\0idx\0chooseType(int)\0"
-    "changedPrefix(QString)\0prefix\0"
-    "changedAmount(QString)\0amount\0"
-    "exportClicked()\0focusTransaction(QModelIndex)\0"
+    "idx\0chooseDate(int)\0chooseType(int)\0"
+    "prefix\0changedPrefix(QString)\0amount\0"
+    "changedAmount(QString)\0exportClicked()\0"
+    "focusTransaction(QModelIndex)\0"
 };
 
 void TransactionView::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)

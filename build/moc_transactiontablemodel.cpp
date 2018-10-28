@@ -30,18 +30,17 @@ static const uint qt_meta_data_TransactionTableModel[] = {
        0,       // signalCount
 
  // slots: signature, parameters, type, tag, flags
-      22,   53,   65,   65, 0x0a,
-      66,   65,   65,   65, 0x0a,
-      88,   65,   65,   65, 0x0a,
+      35,   23,   22,   22, 0x0a,
+      66,   22,   22,   22, 0x0a,
+      88,   22,   22,   22, 0x0a,
 
        0        // eod
 };
 
 static const char qt_meta_stringdata_TransactionTableModel[] = {
-    "TransactionTableModel\0"
+    "TransactionTableModel\0\0hash,status\0"
     "updateTransaction(QString,int)\0"
-    "hash,status\0\0updateConfirmations()\0"
-    "updateDisplayUnit()\0"
+    "updateConfirmations()\0updateDisplayUnit()\0"
 };
 
 void TransactionTableModel::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)

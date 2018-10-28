@@ -30,13 +30,13 @@ static const uint qt_meta_data_MonitoredDataMapper[] = {
        1,       // signalCount
 
  // signals: signature, parameters, type, tag, flags
-      20,   35,   35,   35, 0x05,
+      21,   20,   20,   20, 0x05,
 
        0        // eod
 };
 
 static const char qt_meta_stringdata_MonitoredDataMapper[] = {
-    "MonitoredDataMapper\0viewModified()\0\0"
+    "MonitoredDataMapper\0\0viewModified()\0"
 };
 
 void MonitoredDataMapper::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)

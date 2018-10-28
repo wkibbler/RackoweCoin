@@ -30,21 +30,21 @@ static const uint qt_meta_data_SignVerifyMessageDialog[] = {
        0,       // signalCount
 
  // slots: signature, parameters, type, tag, flags
-      24,   58,   58,   58, 0x08,
-      59,   58,   58,   58, 0x08,
-      87,   58,   58,   58, 0x08,
-     121,   58,   58,   58, 0x08,
-     157,   58,   58,   58, 0x08,
-     185,   58,   58,   58, 0x08,
-     219,   58,   58,   58, 0x08,
-     255,   58,   58,   58, 0x08,
+      25,   24,   24,   24, 0x08,
+      59,   24,   24,   24, 0x08,
+      87,   24,   24,   24, 0x08,
+     121,   24,   24,   24, 0x08,
+     157,   24,   24,   24, 0x08,
+     185,   24,   24,   24, 0x08,
+     219,   24,   24,   24, 0x08,
+     255,   24,   24,   24, 0x08,
 
        0        // eod
 };
 
 static const char qt_meta_stringdata_SignVerifyMessageDialog[] = {
-    "SignVerifyMessageDialog\0"
-    "on_addressBookButton_SM_clicked()\0\0"
+    "SignVerifyMessageDialog\0\0"
+    "on_addressBookButton_SM_clicked()\0"
     "on_pasteButton_SM_clicked()\0"
     "on_signMessageButton_SM_clicked()\0"
     "on_copySignatureButton_SM_clicked()\0"

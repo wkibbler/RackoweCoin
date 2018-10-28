@@ -30,36 +30,37 @@ static const uint qt_meta_data_WalletStack[] = {
        0,       // signalCount
 
  // slots: signature, parameters, type, tag, flags
-      12,   38,   43,   43, 0x0a,
-      44,   43,   43,   43, 0x0a,
-      63,   43,   43,   43, 0x0a,
-      81,   43,   43,   43, 0x0a,
-     103,   43,   43,   43, 0x0a,
-     126,  153,   43,   43, 0x0a,
-     158,   43,   43,   43, 0x2a,
-     178,  153,   43,   43, 0x0a,
-     206,   43,   43,   43, 0x2a,
-     227,  153,   43,   43, 0x0a,
-     257,   43,   43,   43, 0x2a,
-     280,  300,   43,   43, 0x0a,
-     307,   43,   43,   43, 0x0a,
-     322,   43,   43,   43, 0x0a,
-     341,   43,   43,   43, 0x0a,
-     356,   43,   43,   43, 0x0a,
+      18,   13,   12,   12, 0x0a,
+      44,   12,   12,   12, 0x0a,
+      63,   12,   12,   12, 0x0a,
+      81,   12,   12,   12, 0x0a,
+     103,   12,   12,   12, 0x0a,
+     131,  126,   12,   12, 0x0a,
+     158,   12,   12,   12, 0x2a,
+     178,  126,   12,   12, 0x0a,
+     206,   12,   12,   12, 0x2a,
+     227,  126,   12,   12, 0x0a,
+     257,   12,   12,   12, 0x2a,
+     287,  280,   12,   12, 0x0a,
+     307,   12,   12,   12, 0x0a,
+     322,   12,   12,   12, 0x0a,
+     341,   12,   12,   12, 0x0a,
+     356,   12,   12,   12, 0x0a,
 
        0        // eod
 };
 
 static const char qt_meta_stringdata_WalletStack[] = {
-    "WalletStack\0setCurrentWallet(QString)\0"
-    "name\0\0gotoOverviewPage()\0gotoHistoryPage()\0"
+    "WalletStack\0\0name\0setCurrentWallet(QString)\0"
+    "gotoOverviewPage()\0gotoHistoryPage()\0"
     "gotoAddressBookPage()\0gotoReceiveCoinsPage()\0"
-    "gotoSendCoinsPage(QString)\0addr\0"
+    "addr\0gotoSendCoinsPage(QString)\0"
     "gotoSendCoinsPage()\0gotoSignMessageTab(QString)\0"
     "gotoSignMessageTab()\0gotoVerifyMessageTab(QString)\0"
-    "gotoVerifyMessageTab()\0encryptWallet(bool)\0"
-    "status\0backupWallet()\0changePassphrase()\0"
-    "unlockWallet()\0setEncryptionStatus()\0"
+    "gotoVerifyMessageTab()\0status\0"
+    "encryptWallet(bool)\0backupWallet()\0"
+    "changePassphrase()\0unlockWallet()\0"
+    "setEncryptionStatus()\0"
 };
 
 void WalletStack::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)

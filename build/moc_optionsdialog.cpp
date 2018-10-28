@@ -30,38 +30,39 @@ static const uint qt_meta_data_OptionsDialog[] = {
        1,       // signalCount
 
  // signals: signature, parameters, type, tag, flags
-      14,   53,   67,   67, 0x05,
+      29,   15,   14,   14, 0x05,
 
  // slots: signature, parameters, type, tag, flags
-      68,   67,   67,   67, 0x08,
-      88,   67,   67,   67, 0x08,
-     109,   67,   67,   67, 0x08,
-     129,   67,   67,   67, 0x08,
-     150,  175,   67,   67, 0x08,
-     182,   67,   67,   67, 0x08,
-     207,   67,   67,   67, 0x08,
-     229,   67,   67,   67, 0x08,
-     255,   67,   67,   67, 0x08,
-     280,   67,   67,   67, 0x08,
-     307,   67,   67,   67, 0x08,
-     333,   67,   67,   67, 0x08,
-     353,  398,   67,   67, 0x08,
+      68,   14,   14,   14, 0x08,
+      88,   14,   14,   14, 0x08,
+     109,   14,   14,   14, 0x08,
+     129,   14,   14,   14, 0x08,
+     157,  150,   14,   14, 0x08,
+     182,   14,   14,   14, 0x08,
+     207,   14,   14,   14, 0x08,
+     229,   14,   14,   14, 0x08,
+     255,   14,   14,   14, 0x08,
+     280,   14,   14,   14, 0x08,
+     307,   14,   14,   14, 0x08,
+     333,   14,   14,   14, 0x08,
+     367,  353,   14,   14, 0x08,
 
        0        // eod
 };
 
 static const char qt_meta_stringdata_OptionsDialog[] = {
-    "OptionsDialog\0proxyIpValid(QValidatedLineEdit*,bool)\0"
-    "object,fValid\0\0enableApplyButton()\0"
-    "disableApplyButton()\0enableSaveButtons()\0"
-    "disableSaveButtons()\0setSaveButtonState(bool)\0"
-    "fState\0on_resetButton_clicked()\0"
-    "on_okButton_clicked()\0on_cancelButton_clicked()\0"
+    "OptionsDialog\0\0object,fValid\0"
+    "proxyIpValid(QValidatedLineEdit*,bool)\0"
+    "enableApplyButton()\0disableApplyButton()\0"
+    "enableSaveButtons()\0disableSaveButtons()\0"
+    "fState\0setSaveButtonState(bool)\0"
+    "on_resetButton_clicked()\0on_okButton_clicked()\0"
+    "on_cancelButton_clicked()\0"
     "on_applyButton_clicked()\0"
     "showRestartWarning_Proxy()\0"
     "showRestartWarning_Lang()\0updateDisplayUnit()\0"
-    "handleProxyIpValid(QValidatedLineEdit*,bool)\0"
     "object,fState\0"
+    "handleProxyIpValid(QValidatedLineEdit*,bool)\0"
 };
 
 void OptionsDialog::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)

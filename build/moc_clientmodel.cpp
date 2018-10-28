@@ -30,27 +30,27 @@ static const uint qt_meta_data_ClientModel[] = {
        4,       // signalCount
 
  // signals: signature, parameters, type, tag, flags
-      12,   39,   45,   45, 0x05,
-      46,   72,   45,   45, 0x05,
-      91,  114,   45,   45, 0x05,
-     123,  153,   45,   45, 0x05,
+      19,   13,   12,   12, 0x05,
+      65,   46,   12,   12, 0x05,
+     100,   91,   12,   12, 0x05,
+     143,  123,   12,   12, 0x05,
 
  // slots: signature, parameters, type, tag, flags
-     173,   45,   45,   45, 0x0a,
-     187,  213,   45,   45, 0x0a,
-     228,  253,   45,   45, 0x0a,
+     173,   12,   12,   12, 0x0a,
+     202,  187,   12,   12, 0x0a,
+     240,  228,   12,   12, 0x0a,
 
        0        // eod
 };
 
 static const char qt_meta_stringdata_ClientModel[] = {
-    "ClientModel\0numConnectionsChanged(int)\0"
-    "count\0\0numBlocksChanged(int,int)\0"
-    "count,countOfPeers\0alertsChanged(QString)\0"
-    "warnings\0message(QString,QString,uint)\0"
-    "title,message,style\0updateTimer()\0"
-    "updateNumConnections(int)\0numConnections\0"
-    "updateAlert(QString,int)\0hash,status\0"
+    "ClientModel\0\0count\0numConnectionsChanged(int)\0"
+    "count,countOfPeers\0numBlocksChanged(int,int)\0"
+    "warnings\0alertsChanged(QString)\0"
+    "title,message,style\0message(QString,QString,uint)\0"
+    "updateTimer()\0numConnections\0"
+    "updateNumConnections(int)\0hash,status\0"
+    "updateAlert(QString,int)\0"
 };
 
 void ClientModel::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)

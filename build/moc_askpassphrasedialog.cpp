@@ -30,18 +30,17 @@ static const uint qt_meta_data_AskPassphraseDialog[] = {
        0,       // signalCount
 
  // slots: signature, parameters, type, tag, flags
-      20,   34,   34,   34, 0x08,
-      35,   50,   56,   34, 0x08,
-      61,   91,   56,   34, 0x08,
+      21,   20,   20,   20, 0x08,
+      46,   40,   35,   20, 0x08,
+      74,   61,   35,   20, 0x08,
 
        0        // eod
 };
 
 static const char qt_meta_stringdata_AskPassphraseDialog[] = {
-    "AskPassphraseDialog\0textChanged()\0\0"
-    "event(QEvent*)\0event\0bool\0"
+    "AskPassphraseDialog\0\0textChanged()\0"
+    "bool\0event\0event(QEvent*)\0object,event\0"
     "eventFilter(QObject*,QEvent*)\0"
-    "object,event\0"
 };
 
 void AskPassphraseDialog::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)

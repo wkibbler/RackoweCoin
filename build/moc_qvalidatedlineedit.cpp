@@ -30,15 +30,15 @@ static const uint qt_meta_data_QValidatedLineEdit[] = {
        0,       // signalCount
 
  // slots: signature, parameters, type, tag, flags
-      19,   34,   40,   40, 0x0a,
-      41,   40,   40,   40, 0x08,
+      26,   20,   19,   19, 0x0a,
+      41,   19,   19,   19, 0x08,
 
        0        // eod
 };
 
 static const char qt_meta_stringdata_QValidatedLineEdit[] = {
-    "QValidatedLineEdit\0setValid(bool)\0"
-    "valid\0\0markValid()\0"
+    "QValidatedLineEdit\0\0valid\0setValid(bool)\0"
+    "markValid()\0"
 };
 
 void QValidatedLineEdit::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)

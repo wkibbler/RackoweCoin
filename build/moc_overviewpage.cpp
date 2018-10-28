@@ -30,24 +30,24 @@ static const uint qt_meta_data_OverviewPage[] = {
        1,       // signalCount
 
  // signals: signature, parameters, type, tag, flags
-      13,   45,   51,   51, 0x05,
+      20,   14,   13,   13, 0x05,
 
  // slots: signature, parameters, type, tag, flags
-      52,   85,   51,   51, 0x0a,
-     128,   51,   51,   51, 0x08,
-     148,   45,   51,   51, 0x08,
-     186,  208,   51,   51, 0x08,
+      95,   52,   13,   13, 0x0a,
+     128,   13,   13,   13, 0x08,
+     148,   14,   13,   13, 0x08,
+     195,  186,   13,   13, 0x08,
 
        0        // eod
 };
 
 static const char qt_meta_stringdata_OverviewPage[] = {
-    "OverviewPage\0transactionClicked(QModelIndex)\0"
-    "index\0\0setBalance(qint64,qint64,qint64)\0"
+    "OverviewPage\0\0index\0transactionClicked(QModelIndex)\0"
     "balance,unconfirmedBalance,immatureBalance\0"
+    "setBalance(qint64,qint64,qint64)\0"
     "updateDisplayUnit()\0"
     "handleTransactionClicked(QModelIndex)\0"
-    "updateAlerts(QString)\0warnings\0"
+    "warnings\0updateAlerts(QString)\0"
 };
 
 void OverviewPage::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)

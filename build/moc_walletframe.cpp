@@ -30,35 +30,36 @@ static const uint qt_meta_data_WalletFrame[] = {
        0,       // signalCount
 
  // slots: signature, parameters, type, tag, flags
-      12,   31,   31,   31, 0x0a,
-      32,   31,   31,   31, 0x0a,
-      50,   31,   31,   31, 0x0a,
-      72,   31,   31,   31, 0x0a,
-      95,  122,   31,   31, 0x0a,
-     127,   31,   31,   31, 0x2a,
-     147,  122,   31,   31, 0x0a,
-     175,   31,   31,   31, 0x2a,
-     196,  122,   31,   31, 0x0a,
-     226,   31,   31,   31, 0x2a,
-     249,  269,   31,   31, 0x0a,
-     276,   31,   31,   31, 0x0a,
-     291,   31,   31,   31, 0x0a,
-     310,   31,   31,   31, 0x0a,
-     325,   31,   31,   31, 0x0a,
+      13,   12,   12,   12, 0x0a,
+      32,   12,   12,   12, 0x0a,
+      50,   12,   12,   12, 0x0a,
+      72,   12,   12,   12, 0x0a,
+     100,   95,   12,   12, 0x0a,
+     127,   12,   12,   12, 0x2a,
+     147,   95,   12,   12, 0x0a,
+     175,   12,   12,   12, 0x2a,
+     196,   95,   12,   12, 0x0a,
+     226,   12,   12,   12, 0x2a,
+     256,  249,   12,   12, 0x0a,
+     276,   12,   12,   12, 0x0a,
+     291,   12,   12,   12, 0x0a,
+     310,   12,   12,   12, 0x0a,
+     325,   12,   12,   12, 0x0a,
 
        0        // eod
 };
 
 static const char qt_meta_stringdata_WalletFrame[] = {
-    "WalletFrame\0gotoOverviewPage()\0\0"
+    "WalletFrame\0\0gotoOverviewPage()\0"
     "gotoHistoryPage()\0gotoAddressBookPage()\0"
-    "gotoReceiveCoinsPage()\0"
-    "gotoSendCoinsPage(QString)\0addr\0"
+    "gotoReceiveCoinsPage()\0addr\0"
+    "gotoSendCoinsPage(QString)\0"
     "gotoSendCoinsPage()\0gotoSignMessageTab(QString)\0"
     "gotoSignMessageTab()\0gotoVerifyMessageTab(QString)\0"
-    "gotoVerifyMessageTab()\0encryptWallet(bool)\0"
-    "status\0backupWallet()\0changePassphrase()\0"
-    "unlockWallet()\0setEncryptionStatus()\0"
+    "gotoVerifyMessageTab()\0status\0"
+    "encryptWallet(bool)\0backupWallet()\0"
+    "changePassphrase()\0unlockWallet()\0"
+    "setEncryptionStatus()\0"
 };
 
 void WalletFrame::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)

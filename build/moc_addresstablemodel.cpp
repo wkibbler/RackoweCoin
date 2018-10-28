@@ -30,18 +30,19 @@ static const uint qt_meta_data_AddressTableModel[] = {
        1,       // signalCount
 
  // signals: signature, parameters, type, tag, flags
-      18,   49,   57,   57, 0x05,
+      27,   19,   18,   18, 0x05,
 
  // slots: signature, parameters, type, tag, flags
-      58,   96,   57,   57, 0x0a,
+      86,   58,   18,   18, 0x0a,
 
        0        // eod
 };
 
 static const char qt_meta_stringdata_AddressTableModel[] = {
-    "AddressTableModel\0defaultAddressChanged(QString)\0"
-    "address\0\0updateEntry(QString,QString,bool,int)\0"
+    "AddressTableModel\0\0address\0"
+    "defaultAddressChanged(QString)\0"
     "address,label,isMine,status\0"
+    "updateEntry(QString,QString,bool,int)\0"
 };
 
 void AddressTableModel::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)

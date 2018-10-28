@@ -30,13 +30,13 @@ static const uint qt_meta_data_QValueComboBox[] = {
        1,       // signalCount
 
  // signals: signature, parameters, type, tag, flags
-      15,   30,   30,   30, 0x05,
+      16,   15,   15,   15, 0x05,
 
  // slots: signature, parameters, type, tag, flags
-      31,   59,   30,   30, 0x08,
+      35,   31,   15,   15, 0x08,
 
  // properties: name, type, flags
-      63,   69, 0xff595103,
+      72,   63, 0xff595103,
 
  // properties: notify_signal_id
        0,
@@ -45,9 +45,9 @@ static const uint qt_meta_data_QValueComboBox[] = {
 };
 
 static const char qt_meta_stringdata_QValueComboBox[] = {
-    "QValueComboBox\0valueChanged()\0\0"
-    "handleSelectionChanged(int)\0idx\0value\0"
-    "QVariant\0"
+    "QValueComboBox\0\0valueChanged()\0idx\0"
+    "handleSelectionChanged(int)\0QVariant\0"
+    "value\0"
 };
 
 void QValueComboBox::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)

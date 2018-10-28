@@ -30,34 +30,34 @@ static const uint qt_meta_data_CoinControlDialog[] = {
        0,       // signalCount
 
  // slots: signature, parameters, type, tag, flags
-      18,   35,   35,   35, 0x08,
-      36,   35,   35,   35, 0x08,
-      49,   35,   35,   35, 0x08,
-      61,   35,   35,   35, 0x08,
-      75,   35,   35,   35, 0x08,
-      97,   35,   35,   35, 0x08,
-     108,   35,   35,   35, 0x08,
-     121,   35,   35,   35, 0x08,
-     141,   35,   35,   35, 0x08,
-     159,   35,   35,   35, 0x08,
-     174,   35,   35,   35, 0x08,
-     194,   35,   35,   35, 0x08,
-     211,   35,   35,   35, 0x08,
-     231,   35,   35,   35, 0x08,
-     252,   35,   35,   35, 0x08,
-     270,   35,   35,   35, 0x08,
-     290,   35,   35,   35, 0x08,
-     310,  348,   35,   35, 0x08,
-     350,   35,   35,   35, 0x08,
-     376,   35,   35,   35, 0x08,
-     411,   35,   35,   35, 0x08,
-     436,   35,   35,   35, 0x08,
+      19,   18,   18,   18, 0x08,
+      36,   18,   18,   18, 0x08,
+      49,   18,   18,   18, 0x08,
+      61,   18,   18,   18, 0x08,
+      75,   18,   18,   18, 0x08,
+      97,   18,   18,   18, 0x08,
+     108,   18,   18,   18, 0x08,
+     121,   18,   18,   18, 0x08,
+     141,   18,   18,   18, 0x08,
+     159,   18,   18,   18, 0x08,
+     174,   18,   18,   18, 0x08,
+     194,   18,   18,   18, 0x08,
+     211,   18,   18,   18, 0x08,
+     231,   18,   18,   18, 0x08,
+     252,   18,   18,   18, 0x08,
+     270,   18,   18,   18, 0x08,
+     290,   18,   18,   18, 0x08,
+     312,  310,   18,   18, 0x08,
+     350,   18,   18,   18, 0x08,
+     376,   18,   18,   18, 0x08,
+     411,   18,   18,   18, 0x08,
+     436,   18,   18,   18, 0x08,
 
        0        // eod
 };
 
 static const char qt_meta_stringdata_CoinControlDialog[] = {
-    "CoinControlDialog\0showMenu(QPoint)\0\0"
+    "CoinControlDialog\0\0showMenu(QPoint)\0"
     "copyAmount()\0copyLabel()\0copyAddress()\0"
     "copyTransactionHash()\0lockCoin()\0"
     "unlockCoin()\0clipboardQuantity()\0"
@@ -65,9 +65,9 @@ static const char qt_meta_stringdata_CoinControlDialog[] = {
     "clipboardAfterFee()\0clipboardBytes()\0"
     "clipboardPriority()\0clipboardLowOutput()\0"
     "clipboardChange()\0radioTreeMode(bool)\0"
-    "radioListMode(bool)\0"
+    "radioListMode(bool)\0,\0"
     "viewItemChanged(QTreeWidgetItem*,int)\0"
-    ",\0headerSectionClicked(int)\0"
+    "headerSectionClicked(int)\0"
     "buttonBoxClicked(QAbstractButton*)\0"
     "buttonSelectAllClicked()\0updateLabelLocked()\0"
 };

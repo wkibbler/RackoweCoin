@@ -30,57 +30,57 @@ static const uint qt_meta_data_BitcoinGUI[] = {
        0,       // signalCount
 
  // slots: signature, parameters, type, tag, flags
-      11,   34,   40,   40, 0x0a,
-      41,   63,   40,   40, 0x0a,
-      82,  107,   40,   40, 0x0a,
-     114,  150,   40,   40, 0x0a,
-     174,  204,   40,   40, 0x2a,
-     224,  245,   40,   40, 0x0a,
-     265,  284,   40,   40, 0x0a,
-     291,  347,   40,   40, 0x0a,
-     377,   40,   40,   40, 0x08,
-     396,   40,   40,   40, 0x08,
-     414,   40,   40,   40, 0x08,
-     436,   40,   40,   40, 0x08,
-     459,  486,   40,   40, 0x08,
-     491,   40,   40,   40, 0x28,
-     511,  486,   40,   40, 0x08,
-     539,   40,   40,   40, 0x28,
-     560,  486,   40,   40, 0x08,
-     590,   40,   40,   40, 0x28,
-     613,   40,   40,   40, 0x08,
-     630,   40,   40,   40, 0x08,
-     645,  698,   40,   40, 0x08,
-     705,  733,   40,   40, 0x08,
-     747,   40,   40,   40, 0x28,
-     771,   40,   40,   40, 0x08,
-     786,   40,   40,   40, 0x08,
+      18,   12,   11,   11, 0x0a,
+      60,   41,   11,   11, 0x0a,
+      89,   82,   11,   11, 0x0a,
+     138,  114,   11,   11, 0x0a,
+     194,  174,   11,   11, 0x2a,
+     244,  224,   11,   11, 0x0a,
+     272,  265,   11,   11, 0x0a,
+     321,  291,   11,   11, 0x0a,
+     377,   11,   11,   11, 0x08,
+     396,   11,   11,   11, 0x08,
+     414,   11,   11,   11, 0x08,
+     436,   11,   11,   11, 0x08,
+     464,  459,   11,   11, 0x08,
+     491,   11,   11,   11, 0x28,
+     511,  459,   11,   11, 0x08,
+     539,   11,   11,   11, 0x28,
+     560,  459,   11,   11, 0x08,
+     590,   11,   11,   11, 0x28,
+     613,   11,   11,   11, 0x08,
+     630,   11,   11,   11, 0x08,
+     652,  645,   11,   11, 0x08,
+     719,  705,   11,   11, 0x08,
+     747,   11,   11,   11, 0x28,
+     771,   11,   11,   11, 0x08,
+     786,   11,   11,   11, 0x08,
 
        0        // eod
 };
 
 static const char qt_meta_stringdata_BitcoinGUI[] = {
-    "BitcoinGUI\0setNumConnections(int)\0"
-    "count\0\0setNumBlocks(int,int)\0"
-    "count,nTotalBlocks\0setEncryptionStatus(int)\0"
-    "status\0message(QString,QString,uint,bool*)\0"
+    "BitcoinGUI\0\0count\0setNumConnections(int)\0"
+    "count,nTotalBlocks\0setNumBlocks(int,int)\0"
+    "status\0setEncryptionStatus(int)\0"
     "title,message,style,ret\0"
-    "message(QString,QString,uint)\0"
-    "title,message,style\0askFee(qint64,bool*)\0"
-    "nFeeRequired,payFee\0handleURI(QString)\0"
-    "strURI\0incomingTransaction(QString,int,qint64,QString,QString)\0"
+    "message(QString,QString,uint,bool*)\0"
+    "title,message,style\0message(QString,QString,uint)\0"
+    "nFeeRequired,payFee\0askFee(qint64,bool*)\0"
+    "strURI\0handleURI(QString)\0"
     "date,unit,amount,type,address\0"
+    "incomingTransaction(QString,int,qint64,QString,QString)\0"
     "gotoOverviewPage()\0gotoHistoryPage()\0"
     "gotoAddressBookPage()\0gotoReceiveCoinsPage()\0"
-    "gotoSendCoinsPage(QString)\0addr\0"
+    "addr\0gotoSendCoinsPage(QString)\0"
     "gotoSendCoinsPage()\0gotoSignMessageTab(QString)\0"
     "gotoSignMessageTab()\0gotoVerifyMessageTab(QString)\0"
     "gotoVerifyMessageTab()\0optionsClicked()\0"
-    "aboutClicked()\0"
+    "aboutClicked()\0reason\0"
     "trayIconActivated(QSystemTrayIcon::ActivationReason)\0"
-    "reason\0showNormalIfMinimized(bool)\0"
-    "fToggleHidden\0showNormalIfMinimized()\0"
-    "toggleHidden()\0detectShutdown()\0"
+    "fToggleHidden\0showNormalIfMinimized(bool)\0"
+    "showNormalIfMinimized()\0toggleHidden()\0"
+    "detectShutdown()\0"
 };
 
 void BitcoinGUI::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)

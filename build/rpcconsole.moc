@@ -29,18 +29,17 @@ static const uint qt_meta_data_RPCExecutor[] = {
        1,       // signalCount
 
  // signals: signature, parameters, type, tag, flags
-      12,   31,   48,   48, 0x05,
+      30,   13,   12,   12, 0x05,
 
  // slots: signature, parameters, type, tag, flags
-      49,   66,   48,   48, 0x0a,
+      57,   49,   12,   12, 0x0a,
 
        0        // eod
 };
 
 static const char qt_meta_stringdata_RPCExecutor[] = {
-    "RPCExecutor\0reply(int,QString)\0"
-    "category,command\0\0request(QString)\0"
-    "command\0"
+    "RPCExecutor\0\0category,command\0"
+    "reply(int,QString)\0command\0request(QString)\0"
 };
 
 void RPCExecutor::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
