@@ -19,11 +19,8 @@ building
 ---------
 Deamon build:
 
-cd RackoweCoin/src
-make -f makefile.unix
+cd RackoweCoin/src && make -f makefile.unix
 
 QT build:
 
-cd RackoweCoin
-qmake
-make
+cd RackoweCoin && qmake && make
